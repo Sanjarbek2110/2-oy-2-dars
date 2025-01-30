@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.pages{
+    width: 150px;
+    height: 45px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #21a515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.camp{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    background-color: red;
+    width: 20%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu{
+    width: 100%;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px 0;
+}
+
+.ota1{
+    display: flex;
+}
+
+.section{
+    width: 33.3333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 15px;
+    background-color: blue;
+}
+
+.m2{
+    background-color: gray;
+}
+
+.m3{
+    background-color: palevioletred;
+}
+
+.ota2{
+    display: flex;
+}
+
+.block{
+    width: 90%;
+    height: 600px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.n1{
+    width: 10%;
+    background-color: #92491e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ota3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(0, 119, 255);
+}

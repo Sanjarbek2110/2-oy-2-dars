@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: Arial;
+    font-size: 50px;
+    background-color: palevioletred;
+}
+
+.comp{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #b0ddeb;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ota{
+    display: flex;
+}
+
+.bola{
+    padding: 30px;
+    text-align: center;
+}
+
+.b1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #1fabe2;
+}
+
+.b2{
+    width: 70%;
+    margin-left: 30px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #c93333;
+}
+
+.nevara{
+    display: flex;
+    justify-content: space-around;
+}
+
+.n1{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #928787;
+}
+
+.ota2{
+    background-color: #79cee7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.pages{
+    width: 150px;
+    height: 45px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #21a515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
